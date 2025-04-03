@@ -1,7 +1,7 @@
 const { HfInference } = require("@huggingface/inference");
 const axios = require("axios");
 
-const hf = new HfInference("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");
+const hf = new HfInference("");
 
 const BASE_URL = "http://localhost:3000/api";
 
